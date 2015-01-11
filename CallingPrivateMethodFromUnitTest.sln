@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CallingPrivateMethodFromUnitTest", "CallingPrivateMethodFromUnitTest\CallingPrivateMethodFromUnitTest.csproj", "{FA74B2EF-79E0-49A6-AD9D-27D5115855BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject", "UnitTestProject\UnitTestProject.csproj", "{B0019147-5976-4F62-8C91-94B1072BD69E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA74B2EF-79E0-49A6-AD9D-27D5115855BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA74B2EF-79E0-49A6-AD9D-27D5115855BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA74B2EF-79E0-49A6-AD9D-27D5115855BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA74B2EF-79E0-49A6-AD9D-27D5115855BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0019147-5976-4F62-8C91-94B1072BD69E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0019147-5976-4F62-8C91-94B1072BD69E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0019147-5976-4F62-8C91-94B1072BD69E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0019147-5976-4F62-8C91-94B1072BD69E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
