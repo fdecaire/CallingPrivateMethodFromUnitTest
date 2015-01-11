@@ -17,7 +17,7 @@ namespace UnitTestProject
 
 			Mathinator mathinator = new Mathinator();
 			var mathinatorObject = new PrivateObject(mathinator);
-			double result = Convert.ToDouble(mathinatorObject.Invoke("AddList",input));
+			double result = (double)mathinatorObject.Invoke("AddList",input);
 
 			Assert.AreEqual(18.85, result);
 		}
@@ -30,7 +30,7 @@ namespace UnitTestProject
 			input[1] = 12.4;
 			input[2] = 3.45;
 
-			PrivateType privateHelperType = new PrivateType(typeof(StaticMathinator));
+			var privateHelperType = new PrivateType(typeof(StaticMathinator));
 			double result = (double)privateHelperType.InvokeStatic("AddNumbers", input);
 
 			Assert.AreEqual(18.85, result);
