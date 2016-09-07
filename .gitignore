@@ -41,3 +41,20 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+*.suo
+/CallingPrivateMethodFromUnitTest/bin/Debug/CallingPrivateMethodFromUnitTest.exe
+/CallingPrivateMethodFromUnitTest/bin/Debug/CallingPrivateMethodFromUnitTest.exe.config
+/CallingPrivateMethodFromUnitTest/bin/Debug/CallingPrivateMethodFromUnitTest.pdb
+/CallingPrivateMethodFromUnitTest/obj/Debug/CallingPrivateMethodFromUnitTest.csproj.FileListAbsolute.txt
+/CallingPrivateMethodFromUnitTest/obj/Debug/CallingPrivateMethodFromUnitTest.csprojResolveAssemblyReference.cache
+/CallingPrivateMethodFromUnitTest/obj/Debug/CallingPrivateMethodFromUnitTest.exe
+/CallingPrivateMethodFromUnitTest/obj/Debug/CallingPrivateMethodFromUnitTest.pdb
+/UnitTestProject/bin/Debug/CallingPrivateMethodFromUnitTest.exe
+/UnitTestProject/bin/Debug/CallingPrivateMethodFromUnitTest.pdb
+/UnitTestProject/bin/Debug/Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+/UnitTestProject/bin/Debug/UnitTestProject.dll
+/UnitTestProject/bin/Debug/UnitTestProject.pdb
+/UnitTestProject/obj/Debug/UnitTestProject.csproj.FileListAbsolute.txt
+/UnitTestProject/obj/Debug/UnitTestProject.csprojResolveAssemblyReference.cache
+*.dll
+*.pdb
